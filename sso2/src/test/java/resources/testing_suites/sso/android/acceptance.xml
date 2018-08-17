@@ -1,0 +1,260 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="AmcApp_Sign-In_Test_1">
+        <classes>
+            <class name="com.amazon.qa.tests.amcapp.AmcAppTest">
+                <methods>
+                    <include name="verifyAmcAppSignedIn_withDownloading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_auto_Sign-In_Test_2">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistoryAppAutoSignedIn_withDownloading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_auto_Sign-In_Test_3">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppAutoSignedIn_withDownloading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LifeTimeApp_auto_Sign-In_Test_4">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeAppAutoSignedIn_withDownloading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LifeTimeApp_Sign-In_After_Data_is_Cleared_Test_5">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeSignedInAfterDataIsCleared"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-In_After_Cache_is_Cleared_Test_6">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkSignedInAfterCacheIsCleared"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_Sign-In_After_Force_Stop_Test_7">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistorySignedInAfterForceStop"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-In_After_Uninstall_install again_Pre_Test_8">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkSignedInAfterUninstalledInstalled_preTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-In_After_Uninstall_install again_Test_9">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppAutoSignedIn_withDownloading"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Video_Content_Plays_Test_10">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkVideoContentPlays"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-Out_After_Content_Watched_Test_11">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppSignedOutAfterContentWatched"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AmcApp_auto_Sign-Out_Test_12">
+        <classes>
+            <class name="com.amazon.qa.tests.amcapp.AmcAppTest">
+                <methods>
+                    <include name="verifyAmcAppAutoSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_auto_Sign-Out_Test_13">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistoryAppAutoSignOut"/>
+                    <exclude name="verifyHistoryAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LifeTimeApp_auto_Sign-Out_Test_14">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeAppAutoSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-In_Test_15">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_auto_Sign-In_Test_16">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistoryAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LifeTimeApp_auto_Sign-In_Test_17">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-Out_Test_18">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AmcApp_auto_Sign-Out_Test_19">
+        <classes>
+            <class name="com.amazon.qa.tests.amcapp.AmcAppTest">
+                <methods>
+                    <include name="verifyAmcAppAutoSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_auto_Sign-Out_Test_20">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistoryAppAutoSignOut"/>
+                    <exclude name="verifyHistoryAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LifeTimeApp_auto_Sign-Out_Test_21">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeAppAutoSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_Sign-In_Test_22">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistoryAppSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_auto_Sign-In_Test_23">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="LifeTimeApp_auto_Sign-In_Test_24">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HallmarkApp_Sign-Out_Test_25">
+        <classes>
+            <class name="com.amazon.qa.tests.hallmarkapp.HallmarkAppTest">
+                <methods>
+                    <include name="verifyHallmarkAppSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="AmcApp_auto_Sign-Out_Test_26">
+        <classes>
+            <class name="com.amazon.qa.tests.amcapp.AmcAppTest">
+                <methods>
+                    <include name="verifyAmcAppAutoSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="HistoryApp_auto_Sign-Out_Test_27">
+        <classes>
+            <class name="com.amazon.qa.tests.historyapp.HistoryAppTest">
+                <methods>
+                    <include name="verifyHistoryAppAutoSignOut"/>
+                    <exclude name="verifyHistoryAppAutoSignedIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="LifeTimeApp_auto_Sign-Out_Test_28">
+        <classes>
+            <class name="com.amazon.qa.tests.lifetimeapp.LifeTimeAppTest">
+                <methods>
+                    <include name="verifyLifeTimeAppAutoSignedOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,5 @@
+com/amazon/qa/sso/android/pages/cookingchannelapp/CookingChannelAppPage.class
+com/amazon/qa/sso/android/pages/hallmarkapp/HallmarkAppPage.class
+com/amazon/qa/sso/android/pages/BasePage.class
+com/amazon/qa/sso/android/pages/historyapp/HistoryAppPage.class
+com/amazon/qa/sso/android/pages/syfyapp/SyFyAppPage.class

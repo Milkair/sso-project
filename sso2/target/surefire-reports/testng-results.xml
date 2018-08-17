@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[[CookingChannelApp] Downloading process is starting...]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] CookingChannel app is selected]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] Download button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] CookingChannel app is installing...]]>
+    </line>
+    <line>
+      <![CDATA[Got it button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] Play button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] isCookingChannelSignedIn test is running...]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] Optimum MVPD is selected]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] Optimum username is provided]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] Optimum password is provided]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] Optimum Sign-In button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[CookingChannelApp] CookingChannel app is successfully singedIn]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] Downloading process is starting...]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] SyFy app is selected]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] Download button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] SyFy app is installing...]]>
+    </line>
+    <line>
+      <![CDATA[Got it button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] Play button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] isSyFyAutoSignedIn_withDownloading test is running...]]>
+    </line>
+    <line>
+      <![CDATA[[SyFyApp] SyFy app is successfully auto signedIn]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="388188" started-at="2018-03-03T00:56:34Z" finished-at="2018-03-03T01:03:02Z">
+    <groups>
+    </groups>
+    <test name="CookingChannelApp_Sign-In_Test_1" duration-ms="200258" started-at="2018-03-03T00:56:34Z" finished-at="2018-03-03T00:59:54Z">
+      <class name="com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest">
+        <test-method status="PASS" signature="initCookingChannelPage()[pri:0, instance:com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest@2669b199]" name="initCookingChannelPage" is-config="true" duration-ms="10562" started-at="2018-03-02T16:56:34Z" finished-at="2018-03-02T16:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initCookingChannelPage -->
+        <test-method status="PASS" signature="verifyCookingChannelAppSignedIn()[pri:0, instance:com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest@2669b199]" name="verifyCookingChannelAppSignedIn" duration-ms="182898" started-at="2018-03-02T16:56:45Z" finished-at="2018-03-02T16:59:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[CookingChannelApp] Downloading process is starting...]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] CookingChannel app is selected]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] Download button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] CookingChannel app is installing...]]>
+            </line>
+            <line>
+              <![CDATA[Got it button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] Play button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] isCookingChannelSignedIn test is running...]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] Optimum MVPD is selected]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] Optimum username is provided]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] Optimum password is provided]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] Optimum Sign-In button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[CookingChannelApp] CookingChannel app is successfully singedIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCookingChannelAppSignedIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest@2669b199]" name="tearDown" is-config="true" duration-ms="6769" started-at="2018-03-02T16:59:48Z" finished-at="2018-03-02T16:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest -->
+    </test> <!-- CookingChannelApp_Sign-In_Test_1 -->
+    <test name="SyFyApp_auto_Sign-In_Test_2" duration-ms="187897" started-at="2018-03-03T00:59:54Z" finished-at="2018-03-03T01:03:02Z">
+      <class name="com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest">
+        <test-method status="PASS" signature="startAppium()[pri:0, instance:com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest@2669b199]" name="startAppium" is-config="true" duration-ms="5421" started-at="2018-03-02T16:56:29Z" finished-at="2018-03-02T16:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+      </class> <!-- com.amazon.qa.tests.cookingchannelapp.CookingChannelAppTest -->
+      <class name="com.amazon.qa.tests.syfyapp.SyfyAppTest">
+        <test-method status="PASS" signature="initSyFyPage()[pri:0, instance:com.amazon.qa.tests.syfyapp.SyfyAppTest@5d5eef3d]" name="initSyFyPage" is-config="true" duration-ms="11036" started-at="2018-03-02T16:59:54Z" finished-at="2018-03-02T17:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSyFyPage -->
+        <test-method status="PASS" signature="verifySyFyAppAutoSignedIn_withDownloading()[pri:0, instance:com.amazon.qa.tests.syfyapp.SyfyAppTest@5d5eef3d]" name="verifySyFyAppAutoSignedIn_withDownloading" duration-ms="167793" started-at="2018-03-02T17:00:05Z" finished-at="2018-03-02T17:02:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[SyFyApp] Downloading process is starting...]]>
+            </line>
+            <line>
+              <![CDATA[[SyFyApp] SyFy app is selected]]>
+            </line>
+            <line>
+              <![CDATA[[SyFyApp] Download button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[SyFyApp] SyFy app is installing...]]>
+            </line>
+            <line>
+              <![CDATA[Got it button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[SyFyApp] Play button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[[SyFyApp] isSyFyAutoSignedIn_withDownloading test is running...]]>
+            </line>
+            <line>
+              <![CDATA[[SyFyApp] SyFy app is successfully auto signedIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySyFyAppAutoSignedIn_withDownloading -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.tests.syfyapp.SyfyAppTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="9068" started-at="2018-03-02T17:02:53Z" finished-at="2018-03-02T17:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeAppium()[pri:0, instance:com.amazon.qa.tests.syfyapp.SyfyAppTest@5d5eef3d]" name="closeAppium" is-config="true" duration-ms="1106" started-at="2018-03-02T17:03:02Z" finished-at="2018-03-02T17:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppium -->
+      </class> <!-- com.amazon.qa.tests.syfyapp.SyfyAppTest -->
+    </test> <!-- SyFyApp_auto_Sign-In_Test_2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
