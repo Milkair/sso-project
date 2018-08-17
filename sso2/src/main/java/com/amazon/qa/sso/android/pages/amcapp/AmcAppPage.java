@@ -19,11 +19,6 @@ public class AmcAppPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-
-
-
-
-
     @FindBy(xpath = "//android.widget.ImageView[@content-desc='AMC']")
     WebElement amcApp;
 
@@ -32,24 +27,12 @@ public class AmcAppPage extends BasePage {
     }
 
 
-
-
-
-
-
-
     @FindBy(xpath = "//android.widget.TextView[@text='Settings']")
     WebElement amcSettingsBtn;
 
     public WebElement getAmcSettingsBtn() {
         return amcSettingsBtn;
     }
-
-
-
-
-
-
 
     @FindBy(xpath = "//android.widget.TextView[@text='Choose your TV Provider' or @text='CHOOSE YOUR TV PROVIDER']")
     WebElement amcChooseYourProviderByn;
